@@ -1,10 +1,10 @@
-*execution.txt*	Plugin for executing registers on each line of a visual block
+*execution.txt*   Plugin for executing registers on each line of a visual block
 
 Author:  Ryan Nevius <https://ryannevius.com>
 
 |execution-introduction|  Introduction and Feature Summary
 
-INTRODUCTION																*execution-introduction* *execution*
+INTRODUCTION                               *execution-introduction* *execution*
 
 Adds support for executing contents of any register (macros) on each line of a
 visual selection.
