@@ -1,10 +1,43 @@
-*execution.txt*   Plugin for executing registers on each line of a visual block
+*execution.txt*   Plugin for executing registers on each line of visual blocks
 
-Author:  Ryan Nevius <https://ryannevius.com>
 
-|execution-introduction|  Introduction and Feature Summary
+                        VIM-EXECUTION DOCUMENTATION
+                Author: Ryan Nevius <https://ryannevius.com>
+                               License: MIT
 
-INTRODUCTION                               *execution-introduction* *execution*
+
+Help on using vim-execution                        *execution* *vim-execution*
+
+    1. Introduction ............................. |execution-intro|
+    2. Configuration ........................... |execution-config|
+
+==============================================================================
+1. INTRODUCTION                                              *execution-intro*
 
 Adds support for executing contents of any register (macros) on each line of a
 visual selection.
+
+==============================================================================
+2. CONFIGURATION                                            *execution-config*
+
+Global mappings:
+
+    <Plug>(execution_execute) .................. |<Plug>(execution_execute)|
+
+------------------------------------------------------------------------------
+                                                   *<Plug>(execution_execute)*
+
+Scope: global
+Default: none
+
+Execute the contents of any register on each line of a visual selection.
+Works like executing via |:normal|, but with fewer keystrokes.
+
+Example: >
+
+    xnoremap @ <Plug>(execution_execute)
+
+<
+
+------------------------------------------------------------------------------
+vim:tw=78:ts=8:ft=help:norl:
