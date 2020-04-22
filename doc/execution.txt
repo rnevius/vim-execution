@@ -35,7 +35,7 @@ Works like executing via |:normal|, but with fewer keystrokes.
 
 Example: >
 
-    xnoremap @ <Plug>(execution_execute)
+    xmap @ <Plug>(execution_execute)
 
 <
 

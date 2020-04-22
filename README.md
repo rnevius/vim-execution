@@ -22,5 +22,5 @@ Just make your selection and:
 Add a mapping to your (Neo)vim configuration:
 
 ```vim
-xnoremap @ <Plug>(execution_execute)
+xmap @ <Plug>(execution_execute)
 ```
