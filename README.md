@@ -24,3 +24,26 @@ Add a mapping to your (Neo)vim configuration:
 ```vim
 xmap @ <Plug>(execution_execute)
 ```
+
+## Install
+
+### VimPlug
+
+Edit your (Neo)vim configuration (`~/.vimrc`)
+
+```vim
+call plug#begin('~/.vim/plugged')
+    Plug 'rnevius/vim-execution'
+call plug#end()
+```
+
+and run:
+
+```vim
+:source %
+:PlugInstall
+```
+
+### Other Vim plugin manager
+
+Check [vimawesome](https://vimawesome.com/plugin/vim-execution).
